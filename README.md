@@ -3,6 +3,12 @@ old GPS bluetooth device, serial output 19200 baud N81, NMEA-0183 or SiRF bainar
 
 very old device, 
 
+testing with win10 first
+dowanload app bluetooth serial terminal, https://apps.microsoft.com/store/detail/bluetooth-serial-terminal/9WZDNCRDFST8?hl=en-au&gl=au  
+
+![leadtek_gps_9559X_testing_bt_win10.JPG](leadtek_gps_9559X_testing_bt_win10.JPG)  
+
+
 specification,
 
 ```
