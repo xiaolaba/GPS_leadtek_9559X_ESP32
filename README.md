@@ -25,7 +25,20 @@ does not match the user manual, perhaps errata, Leadtek was no longer produces G
 https://swairlearn.bluecover.pt/nmea_analyser  
 
 
-specification,
+### 現用 LEADTEK 9559X, 用藍芽連接, SiRF III 的老產品, 大約 4000mAh 電池可以用35小時.
+COM3 / TTY3 寫入, COM4 / TTY4 讀取,
+不適合飛行時使用,
+只適合地面開車使用.
+
+實際用其他產品比對過,
+iphone13 pro 的 gps 即使在民航機機艙內也可收訊, 定位速度大約40秒, 除了穿越對流層有雲層遮蓋時候斷訊, 用 mapsme 測試.
+iphone11 pro 的 gps 即使機艙內完全斷訊, 無法定位, 用 mapsme 測試.
+ANDROID 9 的機器, gps 在機艙也完全無能, 有可能是 broadcom 的舊芯片方案.
+iphone 無法查得到 GPS 芯片用甚麼.
+
+
+
+### LEADTEK 9559X, specification,
 
 ```
 Specifications
