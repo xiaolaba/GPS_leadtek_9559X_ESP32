@@ -17,7 +17,8 @@ dowanload app bluetooth serial terminal, https://apps.microsoft.com/store/detail
 
 
 
-### my device, LED_1 and LED_2 is swapped, does not match the user manual, perhaps errata, Leadtek was no longer produce GPS product,  
+### my device, LED_1 and LED_2 is swapped  
+does not match the user manual, perhaps errata, Leadtek was no longer produces GPS product in year 2022.  
 
 
 ### online NEMA data analyser  
