@@ -1,12 +1,25 @@
 # GPS_leadtek_9559X_ESP32
-old GPS bluetooth device, serial output 19200 baud N81, NMEA-0183 or SiRF bainary
+old GPS bluetooth device, serial output 19200 baud N81, NMEA-0183 or SiRF bainary  
 
-very old device, 
+very old device, year 2005 used since, but still working great
 
-testing with win10 first
+### Bluetooth connection pin#, default 0000
+
+### testing with win10 first, PDA was no longer supported
 dowanload app bluetooth serial terminal, https://apps.microsoft.com/store/detail/bluetooth-serial-terminal/9WZDNCRDFST8?hl=en-au&gl=au  
 
 ![leadtek_gps_9559X_testing_bt_win10.JPG](leadtek_gps_9559X_testing_bt_win10.JPG)  
+
+### stand alone testing, LED status,
+![leadtek_gps_9559X_testing_LEDs.JPG](leadtek_gps_9559X_testing_LEDs.JPG)  
+
+
+
+### my device, LED_1 and LED_2 is swapped, does not match the user manual, perhaps errata, Leadtek was no longer produce GPS product,  
+
+
+### online NEMA data analyser  
+https://swairlearn.bluecover.pt/nmea_analyser  
 
 
 specification,
