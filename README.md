@@ -3,6 +3,8 @@ old GPS bluetooth device, serial output 19200 baud N81, NMEA-0183 or SiRF bainar
 
 very old device, year 2005 used since, but still working great
 
+Compliant Bluetooth specification v1.2, Series Port Profile (SPP)
+
 ### Bluetooth connection pin#, default 0000
 
 ### testing with win10 first, PDA was no longer supported
