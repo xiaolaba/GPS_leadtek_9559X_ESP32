@@ -1,0 +1,19 @@
+本工具从NMEA文件里读取GPRMC的GPS时间戳  BY Hong Wenjun
+
+Usage: gprmc.exe  [NMEA.txt]  [gps.txt]  [8402]
+
+输出文件不填，结果显示在屏幕上
+*   WGS-84 和 GCJ-02 的 EMEA 打印转换第三个参数 code 定义
+*   02  表示 GCJ-02;
+*   84  表示 WGS-84;
+*
+*   code 定义 默认 8402
+*   8484: 输入WGS-84 度分格式, 输出WGS-84 度小数
+*   8402: 输入WGS-84 度分格式, 输出GCJ-02 火星坐标
+*
+*   0202: 输入GCJ-02 火星坐标, 输出GCJ-02 火星坐标
+*   0284: 输入GCJ-02 火星坐标, 输出WGS-84 度小数
+
+--------------------------
+更多 参考
+https://github.com/hongwenjun/nmea_gprmc/blob/master/README.md
