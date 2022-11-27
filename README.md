@@ -14,6 +14,7 @@ very old device, year 2005 used since, but still working great
 ```
 
 ### NMEA-0183 Standard For Interfacing Marine Electronic Devices.
+the message and checksum, example,  
 ```
 "$PSRF100,0,9600,8,1,0*0C"
 ```
