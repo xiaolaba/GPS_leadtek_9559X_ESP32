@@ -3,7 +3,7 @@ old GPS bluetooth device, serial output 19200 baud N81, NMEA-0183 or SiRF bainar
 
 very old device, year 2005 used since, but still working great
 
-### set SiRF device Switch to SiRF binary protocol  
+### set SiRF device, Switch to SiRF binary protocol, Message ID 100  
 with serial baud rate, N81  
 (SiRF was CSR and then beccome Qualcomm today)  
 ```
@@ -14,6 +14,20 @@ with serial baud rate, N81
 //char gpsMessage[]= "$PSRF100,0,115200,8,1,0*04";	// SiRF set baud rate 115200, N81
 
 ```
+
+
+
+### set SiRF device, Switch To NMEA Protocol – Message ID 129  
+Switches a serial port from binary to NMEA protocol and sets message output rates and bit rate on the port.  
+Table 2-8 contains the input values for the following example:  
+Request the following NMEA data at 9600 bits per second:  
+GGA – ON at 1 sec, GLL – OFF, GSA – ON at 1sec,  
+GSV – ON at 5 sec, RMC – ON at 1sec, VTG-OFF, MSS – OFF, ZDA-OFF.  
+Example:  
+A0A20018—Start Sequence and Payload Length  
+810201010001010105010101000100010001000100012580—Payload  
+013AB0B3—Message Checksum and End Sequence  
+
 
 ### NMEA-0183 Standard For Interfacing Marine Electronic Devices.
 the message and checksum, example,  
