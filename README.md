@@ -56,8 +56,11 @@ dowanload app bluetooth serial terminal, https://apps.microsoft.com/store/detail
 does not match the user manual, perhaps errata, Leadtek was no longer produces GPS product in year 2022.  
 
 
-### online NEMA data analyser  
+### online NMEA data analyser  
 https://swairlearn.bluecover.pt/nmea_analyser  
+
+大神做的小工具 https://github.com/xiaolaba/nmea_gprmc, NMEA 資料轉化成 GPX, 大神沒有教如何編譯, exe 在 win10 也不能動.  
+叉了, 沒有直接用, 另外改, 純粹方便編譯, 做了小修改, 自己做了一個 bat, 放在這裡, minGW 編譯, 能用 
 
 
 ### 現用 LEADTEK 9559X, 用藍芽連接, SiRF III 的老產品, 大約 4000mAh 電池可以用35小時.
