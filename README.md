@@ -13,6 +13,14 @@ very old device, year 2005 used since, but still working great
 
 ```
 
+### NMEA-0183 Standard For Interfacing Marine Electronic Devices.
+```
+"$PSRF100,0,9600,8,1,0*0C"
+```
+0C is CHECKSUM, 0x0C is a two-hex character checksum. Checksum consists of a binary exclusive OR the lower 7 bits of each character after the “$” and before the “*” symbols. The resulting 7-bit binary number is displayed as the ASCII equivalent of two hexadecimal characters representing the contents of the checksum. Use of checksums is required on all NMEA messages.  
+my little tool for expewriment, [gps_nmea_string_checksum](gps_nmea_string_checksum), compiled with MinGW.
+
+
 Compliant Bluetooth specification v1.2, Series Port Profile (SPP)
 
 ### Bluetooth connection pin#, default 0000
