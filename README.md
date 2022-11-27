@@ -60,7 +60,16 @@ does not match the user manual, perhaps errata, Leadtek was no longer produces G
 https://swairlearn.bluecover.pt/nmea_analyser  
 
 大神做的小工具 https://github.com/xiaolaba/nmea_gprmc, NMEA 資料轉化成 GPX, 大神沒有教如何編譯, exe 在 win10 也不能動.  
-叉了, 沒有直接用, 另外改, 純粹方便編譯, 做了小修改, 自己做了一個 bat, 放在這裡, minGW 編譯, 能用 
+叉了, 沒有直接用, 另外改, 純粹方便編譯, 做了小修改, 自己做了一個 bat, 放在這裡, minGW 編譯, 能用  
+如何編譯, 用 minGW, 進入 [nmea_gprmc_gpx/xiao_biuld_script](nmea_gprmc_gpx/xiao_biuld_script)  
+自己加入 GPS 的 NMEA 紀錄, 存檔到 nmea.txt
+執行 compile.bat 後, 會產生3個檔案, 
+gprmc.exe  
+nmea_parse.txt  
+nmea_parse.txt.gpx  
+
+把 nmea_parse.txt.gpx 餵給 openstreet map, google erath 之類, 就可看到軌跡.  
+
 
 
 ### 現用 LEADTEK 9559X, 用藍芽連接, SiRF III 的老產品, 大約 4000mAh 電池可以用35小時.
