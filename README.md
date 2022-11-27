@@ -70,8 +70,13 @@ nmea_parse.txt.gpx
 
 把 nmea_parse.txt.gpx 餵給 openstreet map, google erath 之類, 就可看到軌跡.  
 
-改過的源碼在 [nmea_gprmc_gpx/nmea_gprmc/src](nmea_gprmc_gpx/nmea_gprmc/src), txt2gpx.cpp  
-要看大神的原始碼, 看那個叉 https://github.com/xiaolaba/nmea_gprmc
+改過的源碼在 [nmea_gprmc_gpx/nmea_gprmc/src](nmea_gprmc_gpx/nmea_gprmc/src), 
+txt2gpx.cpp    
+main.cpp  
+
+編譯用的 BAT, [nmea_gprmc_gpx/nmea_gprmc/src/compile.bat](nmea_gprmc_gpx/nmea_gprmc/src/compile.bat)  
+  
+要看大神的原始碼, 看那個叉 https://github.com/xiaolaba/nmea_gprmc  
 
 
 ### 現用 LEADTEK 9559X, 用藍芽連接, SiRF III 的老產品, 大約 4000mAh 電池可以用35小時.
