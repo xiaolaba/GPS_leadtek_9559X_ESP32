@@ -74,7 +74,7 @@ nmea_parse.txt.gpx
 txt2gpx.cpp    
 main.cpp  
 
-編譯用的 BAT, [nmea_gprmc_gpx/nmea_gprmc/src/compile.bat](nmea_gprmc_gpx/nmea_gprmc/src/compile.bat)  
+編譯用的 BAT, [nmea_gprmc_gpx/xiao_biuld_script/compile.bat](nmea_gprmc_gpx/xiao_biuld_script/compile.bat)  
   
 要看大神的原始碼, 看那個叉 https://github.com/xiaolaba/nmea_gprmc  
 
