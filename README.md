@@ -3,7 +3,9 @@ old GPS bluetooth device, serial output 19200 baud N81, NMEA-0183 or SiRF bainar
 
 very old device, year 2005 used since, but still working great
 
-### set SiRF device with serial baud rate, N81,  and (SiRF was CSR and then beccome Qualcomm today)  
+### set SiRF device Switch to SiRF binary protocol  
+with serial baud rate, N81  
+(SiRF was CSR and then beccome Qualcomm today)  
 ```
 //char gpsMessage[]= "$PSRF100,0,9600,8,1,0*0C";	// SiRF set baud rate 9600, N81
 //char gpsMessage[]= "$PSRF100,0,19200,8,1,0*39";	// SiRF set baud rate 19200, N81
