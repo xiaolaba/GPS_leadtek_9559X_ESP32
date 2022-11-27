@@ -63,7 +63,7 @@ https://swairlearn.bluecover.pt/nmea_analyser
 叉了, 沒有直接用, 另外改, 純粹方便編譯, 做了小修改, 自己做了一個 bat, 放在這裡, minGW 編譯, 能用  
 如何編譯, 用 minGW, 進入 [nmea_gprmc_gpx/xiao_biuld_script](nmea_gprmc_gpx/xiao_biuld_script)  
 自己加入 GPS 的 NMEA 紀錄, 存檔到 nmea.txt
-執行 compile.bat 後, 會產生3個檔案, 
+執行 compile.bat 後, 會產生3個檔案,   
 gprmc.exe  
 nmea_parse.txt  
 nmea_parse.txt.gpx  
