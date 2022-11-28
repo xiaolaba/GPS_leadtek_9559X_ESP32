@@ -92,6 +92,15 @@ iphone 無法查得到 GPS 芯片用甚麼.
 
 
 
+### Android test rig setup & log  
+![nmea_gprmc_gpx/xiao_biuld_script/Serial_bluetooth_Terminal.png](nmea_gprmc_gpx/xiao_biuld_script/Serial_bluetooth_Terminal.png)  
+https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en_US&gl=US&pli=1  
+tested phones,  
+android 5.0.2, HTC 8088  
+android 9, nokia TA-1052  
+
+
+
 ### LEADTEK 9559X, specification,
 
 ```
