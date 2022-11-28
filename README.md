@@ -70,7 +70,7 @@ nmea_parse.txt.gpx
 
 把 nmea_parse.txt.gpx 餵給 openstreet map, google erath 之類, 就可看到軌跡.  
 
-改過的源碼在 [nmea_gprmc_gpx/nmea_gprmc/src](nmea_gprmc_gpx/nmea_gprmc/src), 
+改過的源碼在 [nmea_gprmc_gpx/nmea_gprmc/src](nmea_gprmc_gpx/nmea_gprmc/src),  
 txt2gpx.cpp    
 main.cpp  
 
