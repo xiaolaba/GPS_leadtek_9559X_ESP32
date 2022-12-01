@@ -8,6 +8,41 @@ very old device, year 2005 used since, but still working great
 ![ESP32_leadtek9559gps/ESP32_leadtek9559gps.JPG](ESP32_leadtek9559gps/ESP32_leadtek9559gps.JPG)  
 
 
+### NMEA message log
+```
+$GPGSV,3,1,12,20,00,000,,10,00,000,,25,00,000,,27,00,000,*79
+$GPGSV,3,2,12,03,00,000,,31,00,000,,24,00,000,,15,00,000,*78
+$GPGSV,3,3,12,16,00,000,,05,00,000,,01,00,000,,26,00,000,*7D
+$GPRMC,004322.213,V,,,,,,,110905,,,N*46
+$GPVTG,,T,,M,,N,,K,N*2C
+$GPGGA,004323.205,,,,,0,00,,,M,0.0,M,,0000*57
+$GPRMC,004323.205,V,,,,,,,110905,,,N*40
+$GPVTG,,T,,M,,N,,K,N*2C
+$GPGGA,004324.207,,,,,0,00,,,M,0.0,M,,0000*52
+$GPRMC,004324.207,V,,,,,,,110905,,,N*45
+$GPVTG,,T,,M,,N,,K,N*2C
+$GPGGA,004325.213,,,,,0,00,,,M,0.0,M,,0000*56
+$GPRMC,004325.213,V,,,,,,,110905,,,N*41
+$GPVTG,,T,,M,,N,,K,N*2C
+$GPGGA,004326.202,,,,,0,00,,,M,0.0,M,,0000*55
+$GPRMC,004326.202,V,,,,,,,110905,,,N*42
+$GPVTG,,T,,M,,N,,K,N*2C
+$GPGGA,004327.202,,,,,0,00,,,M,0.0,M,,0000*54
+$GPGSA,A,1,,,,,,,,,,,,,,,*1E
+
+```
+reading,  
+https://blog.csdn.net/qq_16064871/article/details/52823591  
+$GPRMC：Recommended Minimum Specific GPS/TRANSIT Data－RMC，推荐定位信息1次/1秒  
+$GPGGA：输出GPS的定位信息；Global Positioning System Fix Data－GGA，GPS定位信息, 输出1次/1秒  
+$GPGLL：输出大地坐标信息；
+$GPVTG : Track Made Good and Ground Speed－VTG，地面速度信息  
+$GPZDA：输出UTC时间和日期信息  
+$GPGSV：输出可见的卫星信息；GPS Satellites in View－GSV，可见卫星信息，1次/5秒）  
+$GPGST：输出定位标准差信息；GPS 伪距噪声统计,包括了三维坐标的标准偏差信息）  
+$GPGSA：输出卫星DOP值信息；GPS DOP and Active Satellites－GSA，当前卫星信息，1次/1秒  
+$GPALM：输出卫星星历信息；  
+
 
 
 ### set SiRF device, Switch to SiRF binary protocol, Message ID 100  
