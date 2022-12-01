@@ -15,9 +15,9 @@ BluetoothSerial SerialBT;
 //String MACadd = "AA:BB:CC:11:22:33";
 //uint8_t address[6]  = {0xAA, 0xBB, 0xCC, 0x11, 0x22, 0x33};
 
+
 // my leadtek 9559 GPS MAC address
 uint8_t address[6] = {0x00, 0x02, 0x78, 0x14, 0x0B, 0xFC};
-
 String name = "Leadtek 9559 series BT GPS";
 char *pin = "0000"; //<- standard pin would be provided by default
 
@@ -46,14 +46,18 @@ void setup() {
     }
   }
   
+  SerialBT.flush(); // by xiaolaba
+  
   // disconnect() may take upto 10 secs max
-  SerialBT.flush();
   if (SerialBT.disconnect()) {
     Serial.println("Disconnected Succesfully!");
   }
 
+  
+  // by xiaolaba
   //disconnect_bluetooth();
-
+  
+// by xiaolaba
 //  delay(1000); // not working !!
 //  delay(2000); // working ??
 //  delay(3000); // not working ? a must, otherwise leadtek GPS failed connection
@@ -76,7 +80,7 @@ void loop() {
   
 }
 
-
+// by xiaolaba
 void disconnect_bluetooth()
 {
   delay(1000);
